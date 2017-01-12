@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  C1CreditCardsViewController.swift
 //  RewardFinder
 //
 //  Created by Casey Chien on 1/12/17.
@@ -8,16 +8,12 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
-    
-    
-    @IBAction func capitalOnePressed(_ sender: Any) {
-        performSegue(withIdentifier: "buttonClicked", sender: self)
-    }
+class C1CreditCardsViewController: UIViewController {
 
+    var company: String?
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("On second screen")
+
         // Do any additional setup after loading the view.
     }
 
@@ -37,10 +33,4 @@ class SecondViewController: UIViewController {
     }
     */
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "buttonClicked" {
-            let destinationVC = segue.destination as! C1CreditCardsViewController
-            destinationVC.company = "Capital One"
-        }
-    }
 }

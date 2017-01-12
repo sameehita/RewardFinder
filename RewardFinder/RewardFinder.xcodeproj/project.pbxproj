@@ -13,6 +13,8 @@
 		E93F1D741E28040E00ECC50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93F1D731E28040E00ECC50B /* Assets.xcassets */; };
 		E93F1D771E28040E00ECC50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93F1D751E28040E00ECC50B /* LaunchScreen.storyboard */; };
 		E93F1D7F1E280AAD00ECC50B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D7E1E280AAD00ECC50B /* SecondViewController.swift */; };
+		E93F1D851E28150B00ECC50B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D841E28150B00ECC50B /* ViewController.swift */; };
+		E93F1D871E28186200ECC50B /* C1CreditCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D861E28186200ECC50B /* C1CreditCardsViewController.swift */; };
 		F084219B1E28125C00BF0A71 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084219A1E28125C00BF0A71 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		E93F1D761E28040E00ECC50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E93F1D781E28040E00ECC50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E93F1D7E1E280AAD00ECC50B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E93F1D841E28150B00ECC50B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E93F1D861E28186200ECC50B /* C1CreditCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C1CreditCardsViewController.swift; sourceTree = "<group>"; };
 		F084219A1E28125C00BF0A71 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,10 +62,12 @@
 		E93F1D6B1E28040E00ECC50B /* RewardFinder */ = {
 			isa = PBXGroup;
 			children = (
+				E93F1D841E28150B00ECC50B /* ViewController.swift */,
 				F084219A1E28125C00BF0A71 /* CategoryViewController.swift */,
 				E93F1D6C1E28040E00ECC50B /* AppDelegate.swift */,
 				E93F1D6E1E28040E00ECC50B /* ResultViewController.swift */,
 				E93F1D701E28040E00ECC50B /* Main.storyboard */,
+				E93F1D861E28186200ECC50B /* C1CreditCardsViewController.swift */,
 				E93F1D731E28040E00ECC50B /* Assets.xcassets */,
 				E93F1D751E28040E00ECC50B /* LaunchScreen.storyboard */,
 				E93F1D781E28040E00ECC50B /* Info.plist */,
@@ -142,10 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93F1D851E28150B00ECC50B /* ViewController.swift in Sources */,
 				F084219B1E28125C00BF0A71 /* CategoryViewController.swift in Sources */,
 				E93F1D7F1E280AAD00ECC50B /* SecondViewController.swift in Sources */,
 				E93F1D6F1E28040E00ECC50B /* ResultViewController.swift in Sources */,
 				E93F1D6D1E28040E00ECC50B /* AppDelegate.swift in Sources */,
+				E93F1D871E28186200ECC50B /* C1CreditCardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
