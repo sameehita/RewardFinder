@@ -9,17 +9,18 @@
 import UIKit
 
 enum PurchaseCategory {
-    case food
-    case travel
-    case entertainment
+    case dining
     case gas
     case shopping
+    case groceries
+    case hotel
+    case flight
 }
 
 class CategoryViewController: UIViewController {
 
     
-    let categorySegueIdentifier = "categorySegue"
+    let resultsSegueIdentifier = "categorySegue"
     
     var category: PurchaseCategory?
     
@@ -33,27 +34,40 @@ class CategoryViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func foodPressed(_ sender: Any) {
-        category = .food
-        performSegue(withIdentifier: categorySegueIdentifier, sender: self)
+    @IBAction func pressedDining(_ sender: Any) {
+        category = .dining
+        performSegue(withIdentifier: resultsSegueIdentifier, sender: self)
+    }
+    
+    @IBAction func pressedGroceries(_ sender: Any) {
+        category = .groceries
+        performSegue(withIdentifier: resultsSegueIdentifier, sender: self)
     }
     
     
-    @IBAction func travelPressed(_ sender: Any) {
+    @IBAction func pressedHotel(_ sender: Any) {
+        category = .hotel
+        performSegue(withIdentifier: resultsSegueIdentifier, sender: self)
     }
     
-    @IBAction func entertainmentPressed(_ sender: Any) {
+    @IBAction func pressedFlight(_ sender: Any) {
+        category = .flight
+        performSegue(withIdentifier: resultsSegueIdentifier, sender: self)
     }
     
-    @IBAction func gasPressed(_ sender: Any) {
+    @IBAction func pressedGas(_ sender: Any) {
+        category = .gas
+        performSegue(withIdentifier: resultsSegueIdentifier, sender: self)
     }
     
-    @IBAction func shoppingPressed(_ sender: Any) {
+    @IBAction func pressedShopping(_ sender: Any) {
+        category = .shopping
+        performSegue(withIdentifier: resultsSegueIdentifier, sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == categorySegueIdentifier {
-            (segue.destination as! ResultViewController).category = category
+        if segue.identifier == resultsSegueIdentifier {
+            (segue.destination as! ResultViewController).category = category!
         }
     }
 
