@@ -120,7 +120,7 @@
                                 <state key="normal" title="Go to next page"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="JqC-vO-Xn1" eventType="touchUpInside" id="IZA-fh-keI"/>
-                                    <segue destination="VIX-AK-YHo" kind="show" id="VVD-l7-24s"/>
+                                    <segue destination="VIX-AK-YHo" kind="show" id="Aiv-Cp-IAd"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9hf-N2-DGO">
@@ -162,7 +162,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rU9-Jd-YeX">
-                                <rect key="frame" x="147" y="234" width="80" height="30"/>
+                                <rect key="frame" x="148" y="234" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Capital One"/>
                                 <connections>
@@ -173,7 +173,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="capitalOnePressed" destination="rU9-Jd-YeX" id="ill-Lv-GBP"/>
                         <segue destination="qDm-Sk-2E2" kind="show" identifier="buttonClicked" id="Qnt-Sr-SOn"/>
                     </connections>
                 </viewController>
