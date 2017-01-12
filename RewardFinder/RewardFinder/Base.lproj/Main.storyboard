@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Category View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RewardFinder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CategoryViewController" customModule="RewardFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -22,49 +22,54 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wy4-mq-CRL">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yeg-m2-tvC">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="120.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Food"/>
+                                        <state key="normal" title="dining"/>
                                         <connections>
-                                            <action selector="foodPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KYR-Qf-xQI"/>
+                                            <action selector="pressedDining:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V3F-cs-tOA"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HA3-E9-CNc">
-                                        <rect key="frame" x="0.0" y="120.5" width="375" height="120.5"/>
+                                        <rect key="frame" x="0.0" y="108" width="375" height="107.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Travel"/>
+                                        <state key="normal" title="groceries"/>
                                         <connections>
-                                            <action selector="travelPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U2W-0T-sSw"/>
+                                            <action selector="pressedGroceries:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GKv-er-wjL"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8g-81-4IL">
-                                        <rect key="frame" x="0.0" y="241" width="375" height="121"/>
+                                        <rect key="frame" x="0.0" y="215.5" width="375" height="108"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Entertainment"/>
+                                        <state key="normal" title="hotel"/>
                                         <connections>
-                                            <action selector="entertainmentPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fno-UZ-C8e"/>
+                                            <action selector="pressedHotel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bUm-rT-r0x"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BY1-iV-u7B">
+                                        <rect key="frame" x="0.0" y="323.5" width="375" height="108"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="flight"/>
+                                        <connections>
+                                            <action selector="pressedFlight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9hX-gC-woa"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aW0-ac-fZq">
-                                        <rect key="frame" x="0.0" y="362" width="375" height="120.5"/>
+                                        <rect key="frame" x="0.0" y="431.5" width="375" height="107.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Gas"/>
                                         <connections>
-                                            <action selector="entertainmentPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ali-Yg-ZTQ"/>
-                                            <action selector="gasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z03-Ef-j28"/>
+                                            <action selector="pressedGas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r67-Fc-jlB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VO-c6-ch5">
-                                        <rect key="frame" x="0.0" y="482.5" width="375" height="120.5"/>
+                                        <rect key="frame" x="0.0" y="539" width="375" height="108"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Shopping"/>
                                         <connections>
-                                            <action selector="entertainmentPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JOC-gU-2Qi"/>
-                                            <action selector="gasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CdH-ds-dZN"/>
-                                            <action selector="shoppingPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AWx-d8-Wfc"/>
+                                            <action selector="pressedShopping:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xv0-TL-oiL"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -80,7 +85,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="08h-H1-t7e"/>
                     <connections>
-                        <segue destination="FGq-nF-HLF" kind="show" identifier="categorySegue" id="vGA-mf-q1y"/>
+                        <segue destination="FGq-nF-HLF" kind="show" identifier="resultsSegue" id="vGA-mf-q1y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

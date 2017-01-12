@@ -1,0 +1,66 @@
+[{
+	"Username 1": {
+		"First Name": "Pooja",
+		"Last Name": "Welling",
+		"Cards": {
+			"Capital One": {
+				"Name": "Quicksilver"
+			},
+			"American Express": {
+				"Name": "EveryDay"
+			}
+		}
+	},
+
+	"Username 2": {
+		"First Name": "Nhi",
+		"Last Name": "Ngo",
+		"Cards": {
+			"Capital One": {
+				"Name": "Quicksilver"
+			},
+			"Visa": {
+				"Name": "Wyndham Rewards"
+			}
+		}
+	},
+
+	"Username 3": {
+		"First Name": "Casey",
+		"Last Name": "Chien",
+		"Cards": {
+			"Capital One": {
+				"Name": "Quicksilver"
+			},
+			"MasterCard": {
+				"Name": "Amtrak Guest Rewards"
+			}
+		}
+	},
+
+	"Username 4": {
+		"First Name": "Omar",
+		"Last Name": "Baradei",
+		"Cards": {
+			"Capital One": {
+				"Name": "Venture"
+			},
+			"American Express": {
+				"Name": "Gold Delta SkyMiles"
+			}
+		}
+	},
+
+	"Username 5": {
+		"First Name": "Samee",
+		"Last Name": "Mohan",
+		"Cards": {
+			"Capital One": {
+				"Name": "Quicksilver"
+			},
+			"Citi": {
+				"Name": "ThankYou Preferred"
+			}
+		}
+	}
+}]

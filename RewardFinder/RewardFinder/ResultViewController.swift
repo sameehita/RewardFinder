@@ -9,7 +9,7 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-    var category: PurchaseCategory?
+    var category: PurchaseCategory!
     
     override func viewDidLoad() {
         super.viewDidLoad()
