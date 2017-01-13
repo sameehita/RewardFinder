@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		627557901E282F4300B3960E /* transparent logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6275578F1E282F4300B3960E /* transparent logo.png */; };
 		E93F1D6D1E28040E00ECC50B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D6C1E28040E00ECC50B /* AppDelegate.swift */; };
 		E93F1D6F1E28040E00ECC50B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D6E1E28040E00ECC50B /* ResultViewController.swift */; };
 		E93F1D721E28040E00ECC50B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93F1D701E28040E00ECC50B /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6275578F1E282F4300B3960E /* transparent logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "transparent logo.png"; path = "../../../../Downloads/rewardfinder/transparent logo.png"; sourceTree = "<group>"; };
 		E93F1D691E28040E00ECC50B /* RewardFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewardFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93F1D6C1E28040E00ECC50B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E93F1D6E1E28040E00ECC50B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				E93F1D881E28205700ECC50B /* creditCards.json */,
 				E93F1D891E28205700ECC50B /* users.json */,
 				E93F1D841E28150B00ECC50B /* ViewController.swift */,
+				6275578F1E282F4300B3960E /* transparent logo.png */,
 				F084219A1E28125C00BF0A71 /* CategoryViewController.swift */,
 				E93F1D6C1E28040E00ECC50B /* AppDelegate.swift */,
 				E93F1D6E1E28040E00ECC50B /* ResultViewController.swift */,
@@ -148,6 +151,7 @@
 				E93F1D8A1E28205700ECC50B /* creditCards.json in Resources */,
 				E93F1D8B1E28205700ECC50B /* users.json in Resources */,
 				E93F1D741E28040E00ECC50B /* Assets.xcassets in Resources */,
+				627557901E282F4300B3960E /* transparent logo.png in Resources */,
 				E93F1D721E28040E00ECC50B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
