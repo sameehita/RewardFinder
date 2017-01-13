@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JqC-vO-Xn1">
+>>>>>>> 3aaae79b8ac1a02c6b06fc19ba508e544daaac46
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -54,48 +58,77 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="DvH-3g-pgV">
+                                <rect key="frame" x="-315" y="-413" width="1005" height="1493"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twE-C8-yOh">
+                                <rect key="frame" x="0.0" y="12" width="375" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.78823529410000004" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="buying today?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsg-MA-AXB">
+                                <rect key="frame" x="5" y="60" width="375" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.78823529410000004" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wy4-mq-CRL">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AqE-Ua-lHb">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="92.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yeg-m2-tvC">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
+                                        <rect key="frame" x="0.0" y="92.5" width="375" height="92.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="dining"/>
                                         <connections>
                                             <action selector="pressedDining:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V3F-cs-tOA"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aW0-ac-fZq">
+                                        <rect key="frame" x="0.0" y="185" width="375" height="92.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="gas"/>
+                                        <connections>
+                                            <action selector="pressedGas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r67-Fc-jlB"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HA3-E9-CNc">
-                                        <rect key="frame" x="0.0" y="129.5" width="375" height="129.5"/>
+                                        <rect key="frame" x="0.0" y="277.5" width="375" height="92"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="groceries"/>
                                         <connections>
                                             <action selector="pressedGroceries:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GKv-er-wjL"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VO-c6-ch5">
+                                        <rect key="frame" x="0.0" y="369.5" width="375" height="92.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="other purchases"/>
+                                        <connections>
+                                            <action selector="pressedShopping:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xv0-TL-oiL"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8g-81-4IL">
-                                        <rect key="frame" x="0.0" y="259" width="375" height="129"/>
+                                        <rect key="frame" x="0.0" y="462" width="375" height="92.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="flight"/>
                                         <connections>
                                             <action selector="pressedFlight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9hX-gC-woa"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aW0-ac-fZq">
-                                        <rect key="frame" x="0.0" y="388" width="375" height="129.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpU-2z-Qky">
+                                        <rect key="frame" x="0.0" y="554.5" width="375" height="92.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Gas"/>
-                                        <connections>
-                                            <action selector="pressedGas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r67-Fc-jlB"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0VO-c6-ch5">
-                                        <rect key="frame" x="0.0" y="517.5" width="375" height="129.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Shopping"/>
-                                        <connections>
-                                            <action selector="pressedShopping:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xv0-TL-oiL"/>
-                                        </connections>
+                                        <state key="normal" title="hotel"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -115,7 +148,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <point key="canvasLocation" x="1981.5999999999999" y="-152.47376311844079"/>
+=======
             <point key="canvasLocation" x="1937" y="-128"/>
+>>>>>>> caseychien/master
+=======
+            <point key="canvasLocation" x="1937" y="-128"/>
+>>>>>>> caseychien/master
         </scene>
         <!--Result View Controller-->
         <scene sceneID="8fp-fE-8Uo">
@@ -147,31 +188,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZsB-XI-Cau">
-                                <rect key="frame" x="134" y="114" width="109" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Go to next page"/>
-                                <connections>
-                                    <action selector="buttonPressed:" destination="JqC-vO-Xn1" eventType="touchUpInside" id="IZA-fh-keI"/>
-                                    <segue destination="VIX-AK-YHo" kind="show" id="Aiv-Cp-IAd"/>
-                                </connections>
-                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="Pm7-nS-fOZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9hf-N2-DGO">
-                                <rect key="frame" x="60" y="231" width="97" height="30"/>
+                                <rect key="frame" x="139" y="436" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k9a-Xa-WRw">
-                                <rect key="frame" x="60" y="276" width="97" height="30"/>
+                                <rect key="frame" x="139" y="482" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZsB-XI-Cau">
+                                <rect key="frame" x="108" y="555" width="158" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <size key="titleShadowOffset" width="1" height="2"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleShadowColor" red="0.2274509804" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="JqC-vO-Xn1" eventType="touchUpInside" id="IZA-fh-keI"/>
+                                    <segue destination="VIX-AK-YHo" kind="show" id="Aiv-Cp-IAd"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="transparent logo" translatesAutoresizingMaskIntoConstraints="NO" id="isg-ru-UZr">
+                                <rect key="frame" x="68" y="58" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reward Finder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2S-yZ-4qy">
+                                <rect key="frame" x="36" y="333" width="303" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" red="0.78823529411764703" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.22745098039215686" green="0.22745098039215686" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.22745098039215686" green="0.22745098039215686" blue="0.22745098039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="2"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.30980392159999998" green="0.0" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="firstNameTextField" destination="9hf-N2-DGO" id="FOZ-dm-emf"/>
@@ -180,7 +242,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4T0-gv-3fe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <point key="canvasLocation" x="-2596" y="-151.57421289355324"/>
+=======
             <point key="canvasLocation" x="-2596" y="-151"/>
+>>>>>>> caseychien/master
+=======
+            <point key="canvasLocation" x="-2596" y="-151"/>
+>>>>>>> caseychien/master
         </scene>
         <!--Second View Controller-->
         <scene sceneID="Ke1-5U-Xmh">
@@ -194,14 +264,87 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rU9-Jd-YeX">
-                                <rect key="frame" x="148" y="234" width="80" height="30"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="HXe-HB-B6p">
+                                <rect key="frame" x="0.0" y="-63" width="375" height="793"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select one of your " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9X-Te-ig5">
+                                <rect key="frame" x="66" y="66" width="244" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Capital One"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.78823529411764703" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2274509804" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="credit card providers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKH-hK-VKh">
+                                <rect key="frame" x="51" y="119" width="274" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.78823529411764703" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2274509804" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rU9-Jd-YeX">
+                                <rect key="frame" x="0.0" y="222" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Capital One">
+                                    <color key="titleShadowColor" red="0.2274509804" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="capitalOnePressed:" destination="VIX-AK-YHo" eventType="touchUpInside" id="2Ed-vY-fMR"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRa-B5-P3e">
+                                <rect key="frame" x="166" y="498" width="44" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Citi">
+                                    <color key="titleShadowColor" red="0.2274509804" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="a25-Gs-oUd" kind="show" id="PwR-CO-gKQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSs-Ve-9mo">
+                                <rect key="frame" x="-3" y="406" width="383" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="MasterCard">
+                                    <color key="titleShadowColor" red="0.2274509804" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jIc-El-zQ3" kind="show" id="8TU-UU-MyM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIb-DS-HND">
+                                <rect key="frame" x="1" y="314" width="375" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="American Express">
+                                    <color key="titleShadowColor" red="0.2274509804" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Qv7-ZL-TtK" kind="show" id="I85-NS-Nxd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmA-9f-GOW">
+                                <rect key="frame" x="160" y="590" width="57" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Visa">
+                                    <color key="titleShadowColor" red="0.2274509804" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ryO-KF-Nyp" kind="show" id="rtu-32-E6a"/>
+=======
+=======
+>>>>>>> caseychien/master
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmA-9f-GOW">
                                 <rect key="frame" x="172" y="291" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -232,10 +375,19 @@
                                 <state key="normal" title="Citi"/>
                                 <connections>
                                     <segue destination="a25-Gs-oUd" kind="show" id="PwR-CO-gKQ"/>
+<<<<<<< HEAD
+>>>>>>> caseychien/master
+=======
+>>>>>>> caseychien/master
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.30980392159999998" green="0.0" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CmA-9f-GOW" firstAttribute="top" secondItem="zRa-B5-P3e" secondAttribute="bottom" constant="44" id="48Y-t8-fSK"/>
+                            <constraint firstItem="xSs-Ve-9mo" firstAttribute="top" secondItem="WIb-DS-HND" secondAttribute="bottom" constant="44" id="uTR-B4-yYq"/>
+                            <constraint firstItem="zRa-B5-P3e" firstAttribute="top" secondItem="xSs-Ve-9mo" secondAttribute="bottom" constant="44" id="uUf-V2-OZk"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="qDm-Sk-2E2" kind="show" identifier="buttonClicked" id="Qnt-Sr-SOn"/>
@@ -243,7 +395,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IHu-rL-ILF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <point key="canvasLocation" x="-906.39999999999998" y="-64.31784107946028"/>
+=======
             <point key="canvasLocation" x="-1468" y="-187.55622188905548"/>
+>>>>>>> caseychien/master
+=======
+            <point key="canvasLocation" x="-1468" y="-187.55622188905548"/>
+>>>>>>> caseychien/master
         </scene>
         <!--Credit Cards View Controller-->
         <scene sceneID="NS8-et-2dx">
@@ -257,29 +417,87 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nv8-oP-Hdn">
+                                <rect key="frame" x="67" y="56" width="240" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="venture (1)"/>
+=======
+=======
+>>>>>>> caseychien/master
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nv8-oP-Hdn">
                                 <rect key="frame" x="104" y="154" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+<<<<<<< HEAD
+>>>>>>> caseychien/master
+=======
+>>>>>>> caseychien/master
                                 <connections>
                                     <segue destination="4fA-hV-9bI" kind="show" id="DUu-Af-uFR"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oar-u4-K04">
+                                <rect key="frame" x="64" y="247" width="246" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="quicksilver (1)"/>
+=======
+=======
+>>>>>>> caseychien/master
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oar-u4-K04">
                                 <rect key="frame" x="104" y="237" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+<<<<<<< HEAD
+>>>>>>> caseychien/master
+=======
+>>>>>>> caseychien/master
                                 <connections>
                                     <segue destination="4fA-hV-9bI" kind="show" id="7aa-Sa-BVj"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BB-KD-zQD">
+                                <rect key="frame" x="72" y="481" width="231" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Back to providers">
+                                    <color key="titleColor" red="0.78823529410000004" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpj-ug-tN4">
+                                <rect key="frame" x="138" y="564" width="99" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="Finish"/>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="n3p-hJ-8pk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+=======
+>>>>>>> caseychien/master
+=======
+>>>>>>> caseychien/master
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d8e-a7-4de" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <point key="canvasLocation" x="-98.400000000000006" y="-1657.4212893553224"/>
+=======
             <point key="canvasLocation" x="-98" y="-1657"/>
+>>>>>>> caseychien/master
+=======
+            <point key="canvasLocation" x="-98" y="-1657"/>
+>>>>>>> caseychien/master
         </scene>
         <!--View Controller-->
         <scene sceneID="SQN-yv-7WH">
@@ -329,10 +547,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="HlF-Rn-M9b">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s02-rh-NKB">
+                                <rect key="frame" x="153" y="159" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Citi card 1"/>
+=======
+=======
+>>>>>>> caseychien/master
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s02-rh-NKB">
                                 <rect key="frame" x="151" y="159" width="72" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Ciiti card 1"/>
+<<<<<<< HEAD
+>>>>>>> caseychien/master
+=======
+>>>>>>> caseychien/master
                                 <connections>
                                     <segue destination="4fA-hV-9bI" kind="show" id="gol-yy-2Y9"/>
                                 </connections>
@@ -385,10 +620,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="B9g-LX-ST8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xo-2j-Og2">
+                                <rect key="frame" x="72" y="481" width="231" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Back to providers">
+                                    <color key="titleColor" red="0.78823529410000004" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNC-ia-BRH">
+                                <rect key="frame" x="138" y="564" width="79" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Finish"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Cm-Uf-gmx">
+                                <rect key="frame" x="38" y="157" width="299" height="197"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Wyndham_Fee_Visa (1)"/>
+=======
+=======
+>>>>>>> caseychien/master
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Cm-Uf-gmx">
                                 <rect key="frame" x="116" y="120" width="77" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Visa Card 1"/>
+<<<<<<< HEAD
+>>>>>>> caseychien/master
+=======
+>>>>>>> caseychien/master
                                 <connections>
                                     <segue destination="4fA-hV-9bI" kind="show" id="agE-Ad-21X"/>
                                 </connections>
@@ -399,11 +665,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gU8-3g-HY6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <point key="canvasLocation" x="36" y="-931.48425787106453"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Rectangle" width="375" height="667"/>
+        <image name="Wyndham_Fee_Visa (1)" width="478" height="302"/>
+        <image name="quicksilver (1)" width="240" height="151"/>
+        <image name="transparent logo" width="240" height="240"/>
+        <image name="venture (1)" width="240" height="151"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ir1-FF-4A9"/>
+        <segue reference="agE-Ad-21X"/>
+=======
+=======
+>>>>>>> caseychien/master
             <point key="canvasLocation" x="36" y="-931"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
         <segue reference="Aiv-Cp-IAd"/>
         <segue reference="6XF-ip-rO4"/>
+=======
+        <segue reference="Ir1-FF-4A9"/>
+        <segue reference="7nB-L5-LU5"/>
+<<<<<<< HEAD
+>>>>>>> caseychien/master
+=======
+>>>>>>> caseychien/master
+>>>>>>> 3aaae79b8ac1a02c6b06fc19ba508e544daaac46
     </inferredMetricsTieBreakers>
 </document>
