@@ -2,7 +2,7 @@
 //  CategoryViewController.swift
 //  RewardFinder
 //
-//  Created by Omar Baradei on 1/12/17.
+//  Written by Omar Baradei on 1/12/17.
 //
 //
 
@@ -15,12 +15,24 @@ enum PurchaseCategory {
     case groceries
     case hotel
     case flight
+    
+    var toString : String {
+        switch self {
+        // Use Internationalization, as appropriate.
+        case .dining: return "dining";
+        case .gas: return "gas";
+        case .shopping: return "shopping";
+        case .groceries: return "groceries";
+        case .hotel: return "hotel";
+        case .flight: return "flight";
+        }
+    }
 }
 
 class CategoryViewController: UIViewController {
 
     
-    let resultsSegueIdentifier = "categorySegue"
+    let resultsSegueIdentifier = "resultsSegue"
     
     var category: PurchaseCategory?
     
