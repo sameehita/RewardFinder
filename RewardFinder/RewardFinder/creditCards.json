@@ -1,0 +1,81 @@
+{
+	"cards": {
+		"Capital One": {
+			"Quicksilver": {
+				"purchaseType": [
+					"Shopping", "Groceries", "Dining", "Flight", "Hotel", "Gas"
+				],
+				"benefitType": "cashPercentBack",
+				"Benefit": [
+					1.5, 1.5, 1.5, 1.5, 1.5, 1.5
+				]
+			},
+			"Venture": {
+				"purchaseType": [
+					"Shopping", "Groceries", "Dining", "Flight", "Hotel", "Gas"
+				],
+				"benefitType": "milesPerDollar",
+				"Benefit": [
+					2, 2, 2, 2, 2, 2
+				]
+			}
+		},
+
+		"American Express": {
+			"Everyday": {
+				"purchaseType": [
+					"Groceries"
+				],
+				"benefitType": "amexPointsPerDollar",
+				"Benefit": [
+					2
+				]
+			},
+			"Gold Delta SkyMiles": {
+				"purchaseType": [
+					"Flight", "Hotel"
+				],
+				"benefitType": "milesPerDollar",
+				"Benefit": [
+					1, 1
+				]
+			}
+		},
+
+		"Citi": {
+			"ThankYou Preferred": {
+				"purchaseType": [
+					"Dining"
+				],
+				"benefitType": "thankYouPoints",
+				"Benefit": [
+					2
+				]
+			}
+		},
+
+		"MasterCard": {
+			"Amtrak Guest Rewards": {
+				"purchaseType": [
+					"Shopping", "Groceries", "Dining", "Flight", "Hotel", "Gas"
+				],
+				"benefitType": "thankYouPoints",
+				"Benefit": [
+					1, 1, 1, 2, 2, 1
+				]
+			}
+		},
+
+		"Visa": {
+			"Wyndham Rewards": {
+				"purchaseType": [
+					"Gas"
+				],
+				"benefitType": "visaPoints",
+				"Benefit": [
+					2
+				]
+			}
+		}
+	}
+}

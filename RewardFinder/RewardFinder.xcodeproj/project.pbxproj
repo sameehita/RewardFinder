@@ -23,7 +23,7 @@
 		E93F1D951E2830AE00ECC50B /* AddMoreCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D941E2830AE00ECC50B /* AddMoreCardsViewController.swift */; };
 		F084219B1E28125C00BF0A71 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084219A1E28125C00BF0A71 /* CategoryViewController.swift */; };
 		F084219D1E281B2700BF0A71 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084219C1E281B2700BF0A71 /* SwiftyJSON.swift */; };
-		F08421CF1E285A6D00BF0A71 /* RewardFinder.json in Resources */ = {isa = PBXBuildFile; fileRef = F08421CE1E285A6D00BF0A71 /* RewardFinder.json */; };
+		F08421D11E2870A100BF0A71 /* creditCards.json in Resources */ = {isa = PBXBuildFile; fileRef = F08421D01E2870A100BF0A71 /* creditCards.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,7 @@
 		E93F1D941E2830AE00ECC50B /* AddMoreCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoreCardsViewController.swift; sourceTree = "<group>"; };
 		F084219A1E28125C00BF0A71 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		F084219C1E281B2700BF0A71 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
-		F08421CE1E285A6D00BF0A71 /* RewardFinder.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RewardFinder.json; sourceTree = "<group>"; };
+		F08421D01E2870A100BF0A71 /* creditCards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = creditCards.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 		E93F1D6B1E28040E00ECC50B /* RewardFinder */ = {
 			isa = PBXGroup;
 			children = (
-				F08421CE1E285A6D00BF0A71 /* RewardFinder.json */,
 				E93F1D891E28205700ECC50B /* users.json */,
+				F08421D01E2870A100BF0A71 /* creditCards.json */,
 				E93F1D8C1E282C9D00ECC50B /* VisaCreditCardsViewController.swift */,
 				E93F1D841E28150B00ECC50B /* ViewController.swift */,
 				F084219A1E28125C00BF0A71 /* CategoryViewController.swift */,
@@ -161,7 +161,7 @@
 			files = (
 				E93F1D771E28040E00ECC50B /* LaunchScreen.storyboard in Resources */,
 				E93F1D8B1E28205700ECC50B /* users.json in Resources */,
-				F08421CF1E285A6D00BF0A71 /* RewardFinder.json in Resources */,
+				F08421D11E2870A100BF0A71 /* creditCards.json in Resources */,
 				E93F1D741E28040E00ECC50B /* Assets.xcassets in Resources */,
 				E93F1D721E28040E00ECC50B /* Main.storyboard in Resources */,
 			);
