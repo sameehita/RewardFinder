@@ -17,10 +17,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var lastNameTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        firstNameTextField.text = "Casey"
     }
 
-    @IBOutlet weak var logo: UIImageView!
-    @IBOutlet weak var title_text: UILabel!
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

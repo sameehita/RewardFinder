@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		627557901E282F4300B3960E /* transparent logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6275578F1E282F4300B3960E /* transparent logo.png */; };
 		E93F1D6D1E28040E00ECC50B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D6C1E28040E00ECC50B /* AppDelegate.swift */; };
 		E93F1D6F1E28040E00ECC50B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D6E1E28040E00ECC50B /* ResultViewController.swift */; };
 		E93F1D721E28040E00ECC50B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93F1D701E28040E00ECC50B /* Main.storyboard */; };
@@ -18,12 +17,16 @@
 		E93F1D871E28186200ECC50B /* C1CreditCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D861E28186200ECC50B /* C1CreditCardsViewController.swift */; };
 		E93F1D8A1E28205700ECC50B /* creditCards.json in Resources */ = {isa = PBXBuildFile; fileRef = E93F1D881E28205700ECC50B /* creditCards.json */; };
 		E93F1D8B1E28205700ECC50B /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = E93F1D891E28205700ECC50B /* users.json */; };
+		E93F1D8D1E282C9D00ECC50B /* VisaCreditCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D8C1E282C9D00ECC50B /* VisaCreditCardsViewController.swift */; };
+		E93F1D8F1E282DE500ECC50B /* AmExCreditCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D8E1E282DE500ECC50B /* AmExCreditCardsViewController.swift */; };
+		E93F1D911E282EFB00ECC50B /* MasterCardCreditCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D901E282EFB00ECC50B /* MasterCardCreditCardsViewController.swift */; };
+		E93F1D931E282F2800ECC50B /* CitiCreditCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D921E282F2800ECC50B /* CitiCreditCardsViewController.swift */; };
+		E93F1D951E2830AE00ECC50B /* AddMoreCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93F1D941E2830AE00ECC50B /* AddMoreCardsViewController.swift */; };
 		F084219B1E28125C00BF0A71 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084219A1E28125C00BF0A71 /* CategoryViewController.swift */; };
 		F084219D1E281B2700BF0A71 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084219C1E281B2700BF0A71 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6275578F1E282F4300B3960E /* transparent logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "transparent logo.png"; path = "../../../../Downloads/rewardfinder/transparent logo.png"; sourceTree = "<group>"; };
 		E93F1D691E28040E00ECC50B /* RewardFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewardFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93F1D6C1E28040E00ECC50B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E93F1D6E1E28040E00ECC50B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		E93F1D861E28186200ECC50B /* C1CreditCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C1CreditCardsViewController.swift; sourceTree = "<group>"; };
 		E93F1D881E28205700ECC50B /* creditCards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = creditCards.json; sourceTree = "<group>"; };
 		E93F1D891E28205700ECC50B /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		E93F1D8C1E282C9D00ECC50B /* VisaCreditCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisaCreditCardsViewController.swift; sourceTree = "<group>"; };
+		E93F1D8E1E282DE500ECC50B /* AmExCreditCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmExCreditCardsViewController.swift; sourceTree = "<group>"; };
+		E93F1D901E282EFB00ECC50B /* MasterCardCreditCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterCardCreditCardsViewController.swift; sourceTree = "<group>"; };
+		E93F1D921E282F2800ECC50B /* CitiCreditCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiCreditCardsViewController.swift; sourceTree = "<group>"; };
+		E93F1D941E2830AE00ECC50B /* AddMoreCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoreCardsViewController.swift; sourceTree = "<group>"; };
 		F084219A1E28125C00BF0A71 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		F084219C1E281B2700BF0A71 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,13 +80,17 @@
 			children = (
 				E93F1D881E28205700ECC50B /* creditCards.json */,
 				E93F1D891E28205700ECC50B /* users.json */,
+				E93F1D8C1E282C9D00ECC50B /* VisaCreditCardsViewController.swift */,
 				E93F1D841E28150B00ECC50B /* ViewController.swift */,
-				6275578F1E282F4300B3960E /* transparent logo.png */,
 				F084219A1E28125C00BF0A71 /* CategoryViewController.swift */,
 				E93F1D6C1E28040E00ECC50B /* AppDelegate.swift */,
 				E93F1D6E1E28040E00ECC50B /* ResultViewController.swift */,
 				F084219C1E281B2700BF0A71 /* SwiftyJSON.swift */,
 				E93F1D701E28040E00ECC50B /* Main.storyboard */,
+				E93F1D941E2830AE00ECC50B /* AddMoreCardsViewController.swift */,
+				E93F1D921E282F2800ECC50B /* CitiCreditCardsViewController.swift */,
+				E93F1D901E282EFB00ECC50B /* MasterCardCreditCardsViewController.swift */,
+				E93F1D8E1E282DE500ECC50B /* AmExCreditCardsViewController.swift */,
 				E93F1D861E28186200ECC50B /* C1CreditCardsViewController.swift */,
 				E93F1D731E28040E00ECC50B /* Assets.xcassets */,
 				E93F1D751E28040E00ECC50B /* LaunchScreen.storyboard */,
@@ -151,7 +163,6 @@
 				E93F1D8A1E28205700ECC50B /* creditCards.json in Resources */,
 				E93F1D8B1E28205700ECC50B /* users.json in Resources */,
 				E93F1D741E28040E00ECC50B /* Assets.xcassets in Resources */,
-				627557901E282F4300B3960E /* transparent logo.png in Resources */,
 				E93F1D721E28040E00ECC50B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,12 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93F1D8D1E282C9D00ECC50B /* VisaCreditCardsViewController.swift in Sources */,
+				E93F1D911E282EFB00ECC50B /* MasterCardCreditCardsViewController.swift in Sources */,
 				E93F1D851E28150B00ECC50B /* ViewController.swift in Sources */,
+				E93F1D8F1E282DE500ECC50B /* AmExCreditCardsViewController.swift in Sources */,
 				F084219B1E28125C00BF0A71 /* CategoryViewController.swift in Sources */,
 				E93F1D7F1E280AAD00ECC50B /* SecondViewController.swift in Sources */,
+				E93F1D951E2830AE00ECC50B /* AddMoreCardsViewController.swift in Sources */,
 				E93F1D6F1E28040E00ECC50B /* ResultViewController.swift in Sources */,
 				F084219D1E281B2700BF0A71 /* SwiftyJSON.swift in Sources */,
 				E93F1D6D1E28040E00ECC50B /* AppDelegate.swift in Sources */,
+				E93F1D931E282F2800ECC50B /* CitiCreditCardsViewController.swift in Sources */,
 				E93F1D871E28186200ECC50B /* C1CreditCardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

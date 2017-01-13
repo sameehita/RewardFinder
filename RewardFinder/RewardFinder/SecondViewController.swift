@@ -37,10 +37,15 @@ class SecondViewController: UIViewController {
     }
     */
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
         if segue.identifier == "buttonClicked" {
             let destinationVC = segue.destination as! C1CreditCardsViewController
             destinationVC.company = "Capital One"
         }
     }
 }
+
+
+
