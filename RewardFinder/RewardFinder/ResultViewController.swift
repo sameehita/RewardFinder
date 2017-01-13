@@ -22,17 +22,21 @@ class ResultViewController: UIViewController {
         let path = Bundle.main.path(forResource: "creditCards", ofType: "json")
         let url = URL(fileURLWithPath: path!)
         data = try? Data(contentsOf: url)
+        let creditCardData = parseJSON(for: data)
+        let bestCard = findBestReward(in: creditCardData)
         
+    }
+    
+    func parseJSON(for data: Data!) -> [String: Any?]? {
         let json = try? JSONSerialization.jsonObject(with: data!, options: [])
-        
-        print(JSONSerialization.isValidJSONObject(json))
-        
         if let dictionary = json as? [String: Any?] {
-            let cards = dictionary["cards"] as! [String: Any?]
-            print(cards.keys.count)
+            return dictionary
         }
-                
-        // Do any additional setup after loading the view.
+        return nil
+    }
+    
+    func findBestReward(in creditCardData: [String:Any]?) -> String? {
+        return nil
     }
     
     override func didReceiveMemoryWarning() {
